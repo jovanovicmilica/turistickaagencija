@@ -1,0 +1,409 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+body{
+    line-height: 1.6;
+    font-family: 'Quicksand', sans-serif;
+}
+header{
+    width: 100%;
+    padding: 5px 20px;
+    background-color: #ffffff;
+    position: fixed;
+    box-shadow: 0 .125rem .25rem rgba(0,0,0,.075);
+    top: 0px;
+}
+header a{
+    text-decoration: none;
+    color: #000;
+}
+#kontakt{
+    width: 90%;
+    margin: 0px auto;
+    display: flex;
+    justify-content: space-between;
+}
+header nav{
+    width: 90%;
+    padding: 15px 0px 0px;
+    margin: 0px auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+header nav #logo,header nav ul{
+    margin-right: 20px;
+}
+header nav ul{
+    display: flex;
+    align-items: flex-end;
+    justify-content: space-between;
+    width: 60%;
+}
+header nav ul li{
+    list-style-type: none;
+}
+header nav ul li a{
+    text-decoration: none;
+    padding: 10px;
+    font-size: 20px;
+    color: #000;
+}
+.slika{
+    width: 100%;
+    height: 500px;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-image: url("../images/pocetna.jpeg");
+    background-position: bottom;
+    background-attachment: fixed;
+}
+header i{
+    color: #73b72a;
+    margin-left: 10px;
+}
+#putovanja{
+    padding: 40px 0px;
+    display: flex;
+    flex-wrap: wrap;
+    text-align: center;
+}
+.putovanje{
+    padding: 10px;
+    margin: 20px auto;
+    width: 90%;
+    border: 1px solid #73b72a;
+    border-radius: 10px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.putovanje div{
+    width: 20%;
+}
+div img{
+    width: 100%;
+}
+.putovanje div img{
+    border-radius: 50%;
+}
+.naslov{
+    width: 100%;
+    text-align: center;
+    margin: 20px;
+}
+.putovanje p{
+    font-weight: bold;
+    margin-bottom: 5px;
+}
+.putovanje a{
+    padding: 10px;
+    border-radius: 5px;
+    text-decoration: none;
+    background-color: #73b72a;
+    color: #ffffff;
+}
+.putovanje .link{
+    width: auto;
+    margin: 15px auto;
+    text-align: center;
+}
+#putopisi{
+    text-align: center;
+}
+#drzacPutopisi{
+    width: 90%;
+    margin: 50px auto;
+    text-align: center;
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+.putopis{
+    width: 32%;
+    text-align: justify;
+}
+.putopis img,.divPutovanje img{
+    border-radius: 5px;
+}
+.putopis a{
+    color: #5da510;
+    text-decoration: none;
+}
+.strana{
+    width: 100%;
+    padding-top: 150px;
+    text-align: center;
+}
+#putovanje{
+    padding-top: 150px;
+    width: 90%;
+    margin: 0px auto;
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+.divPutovanje{
+    width: 45%;
+    text-align: justify;
+}
+.divPutovanje p{
+    margin-top: 15px;
+}
+#putovanjeDodatak{
+    width: 100%;
+    padding: 30px 0px;
+    display: flex;
+    justify-content: space-between;
+}
+#putovanjeDodatak span{
+    font-weight: bold;
+}
+#jedanPutopis{
+    padding-top: 150px;
+    width: 90%;
+    margin-left: 40px;
+    text-align: justify;
+}
+#jedanPutopis img{
+    border-radius: 10px;
+}
+#jedanPutopis p{
+    margin-top: 10px;
+}
+#jedanPutopis div{
+    width: 80%;
+}
+#jedanPutopis ol{
+    margin-left: 20px;
+}
+#jedanPutopis ol li{
+    margin-top: 15px;
+}
+.divPutovanje a{
+    text-decoration: none;
+    font-size: 20px;
+    color: #000;
+}
+.divPutovanje i{
+    color: #73b72a;
+}
+
+footer{
+    line-height: 2;
+    margin-top: 50px;
+    padding: 20px 0px;
+    width: 100%;
+    background-color: rgba(121, 199, 90, 0.829);
+    display: flex;
+    justify-content: space-around;
+    text-align: justify;
+}
+footer p{
+    font-size: 18px;
+}
+.blok i{
+    font-size: 25px;
+    margin: 0px 3px;
+}
+.mreze{
+    text-align: center;
+}
+.mreze a{
+    color: #000;
+    text-decoration: none;
+}
+footer .blok{
+    padding: 30px;
+}
+#anketa{
+    text-align: center;
+}
+#anketa input[type="radio"]{
+    margin-left: 20px;
+    width: 20px;
+}
+h1,h2{
+    text-decoration: underline #73b72a;
+}
+#modal{
+    display: none;
+    position: fixed;
+    left: 30%;
+    right: 30%;
+    top: 25px;
+    background-color: #f3f3f3;
+    bottom: 30px;
+    border-radius: 10px;
+    margin: 0px auto;
+}
+#linkoviModal{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    flex-wrap: wrap;
+}
+#linkoviModal a{
+    width: 50%;
+    padding: 15px;
+    text-decoration: none;
+    background-color: #c2c2c2;
+    color: #000;
+    border-radius: 5px;
+}
+#linkoviModal .aktivno{
+    background-color: #f3f3f3;
+}
+#logovanjeForma,#registracijaForma{
+    padding-top: 20px;
+    width: 100%;
+}
+#linkoviModal #close{
+    position: absolute;
+    right: 5px;
+    top: 0px;
+    width: auto;
+    padding: 5px;
+    background-color: transparent;
+}
+#registracijaForma{
+    display: none;
+}
+input[type="text"],input[type="password"]{
+    margin-bottom: 10px;
+    text-align: center;
+    border: 0px;
+    border-radius: 5px;
+    padding: 10px;
+    width: 80%;
+}
+input[type="button"]{
+    padding: 10px 15px;
+    border: 0px;
+    border-radius: 5px;
+    background-color: rgba(121, 199, 90, 0.829);
+    margin-top: 10px;
+}
+.duzina{
+    min-height: 335px;
+}
+.fa-paper-plane{
+    font-size: 45px;
+    margin: 10px 0px;
+    color: #5da510;
+}
+.forma{
+    width: 50%;
+    margin: 10px auto;
+}
+.forma input{
+    border: 1px solid #5da510;
+    width: 80%;
+    text-align: left;
+    font-family: 'Quicksand', sans-serif;
+}
+.forma #btnPoruka{
+    text-align: center;
+}
+ textarea{
+    width: 80%;
+    border: 1px solid #5da510;
+    border-radius: 5px;
+    height: 150px;
+    resize: none;
+    padding: 10px;
+    font-family: 'Quicksand', sans-serif;
+}
+.forma #emailPoruka,.forma #telefonPoruka,.forma #imePoruka,.forma #prezimePoruka{
+    width: 40%;
+}
+.crveno i{
+    color: #ff0040;
+}
+table{
+    width: 90%;
+    margin: 0px auto;
+    border-collapse: collapse;
+}
+table td,table th{
+    width: 20%;
+    padding: 30px;
+}
+td img{
+    width: 50%;
+    border-radius: 50%;
+}
+table tr{
+    border-bottom: 1px solid #5da510;
+}
+table a{
+    text-decoration: none;
+    color: #ff0040;
+}
+table i{
+    font-size: 20px;
+}
+#stranicenje{
+    width: 60%;
+    margin: 0px auto;
+    text-align: center;
+}
+#stranicenje a{
+    text-decoration: none;
+    background-color: #73b72a;
+    border-radius: 5px;
+    padding: 10px;
+    color: #ffffff;
+}
+header #admin ul{
+    width: 100%;
+}
+#drzacAdmin{
+    padding-top: 80px;
+    text-align: center;
+}
+#rezAnketa{
+    padding-top: 40px;
+}
+#rezAnketa h2{
+    margin-bottom: 10px;
+}
+#drzacAdmin table tr:hover{
+    background-color: #5da510;
+    color: #fff;
+}
+#drzacAdmin input{
+    border: 1px solid #5da510;
+}
+input[type='date']{
+    width: 50%;
+}
+.forma input[type='button']{
+    text-align: center;
+}
+#drzacAdmin input[type='file']{
+    border: 1px solid #fff;
+}
+.formaAdmin{
+    display: flex;
+}
+.autor{
+    width: 80%;
+    margin: 0px auto;
+}
+#tekstAutor{
+    display: flex;
+    justify-content: space-around;
+}
+#tekstAutor div{
+    width: 30%;
+    border-radius: 5px;
+    padding: 30px 10px;
+    text-align: justify;
+}
+#tekstAutor div img{
+    border-radius: 5px;
+}
