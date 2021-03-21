@@ -1,7 +1,7 @@
 <footer>
         <div class="blok">
             <a href="index.php">
-                <img src="assets/images/logo.png" alt="Logo slika">
+                <img src="assets/images/logo.png" alt="Logo slika"/>
             </a>
         </div>
         <div class="blok">
