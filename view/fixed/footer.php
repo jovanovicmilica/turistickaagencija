@@ -15,7 +15,7 @@
             <a href="https://www.facebook.com/" target="_blank"><i class="fab fa-facebook-f"></i></a>
             <a href="https://www.instagram.com/" target="_blank"><i class="fab fa-instagram"></i></a>
             <a href="https://www.twitter.com/" target="_blank"><i class="fab fa-twitter"></i></a>
-            <a href="vesti.xml" target="_blank"><i class="fas fa-rss"></i><br></a>
+            <a href="vesti.xml" target="_blank"><i class="fas fa-rss"></i><br/></a>
             <a href="sitemap.xml" target="_blank">Sitemap</a>
             <a href="dokumentacija.pdf" target="_blank">Dokumentacija</a>
             <a href="autor.php">Autor</a>
