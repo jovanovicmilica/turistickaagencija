@@ -1,3 +1,4 @@
+<?php?>
 <header>
     <nav id="admin">
         <ul>
