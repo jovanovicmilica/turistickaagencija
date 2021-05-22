@@ -8,7 +8,7 @@
                 <img src="assets/images/autor.jpg" alt="Slika autora">
             </div>
             <div>
-                <p>Zovem se Ivana Panic,broj mog indeksa je 176/16. Rodjena sam u Beogradu i imam 23 godine. Zavrsila sam srednju Zubotehnicku skolu i posle toga sam se odlucila za Visoku ict skolu. U slobodno vreme volim da slusam muziku,putujem i druzim se sa prijateljima. Programiranje je pocelo da me interesuje kada sam upisala fakultet.</p>
+                <p>Jovanovic Milica 88/18</p>
             </div>
         </div>
     </div>
